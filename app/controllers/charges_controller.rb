@@ -2,10 +2,6 @@
 
 
 class ChargesController < ApplicationController
-
-  USERNAME = "husnot.a@gmail.com"
-  PASSWORD = "Aeiouyteam61"
-
   def new
   end
 
