@@ -1,24 +1,27 @@
-# README
+<h1>Newsletter</h1>
+<h4>Réalisation by Edouard, Léa</h4>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h5>Pas de lien vers Heroku désoler la production ne veux pas !</h5>
+<h5>Du coup il faut faire à l'ancienne</h5>
 
-Things you may want to cover:
+<h5>Github</h5>
 
-* Ruby version
+Etape 1:   
 
-* System dependencies
+    > git clone https://github.com/SatanPetitCoeur/NewsletterTHP.git
 
-* Configuration
+Etape 2: 
 
-* Database creation
+    > cd NewsletterTHP
+    
+Etape 3:
 
-* Database initialization
+    > rake db:migrate 
+     
+Etape 4:
 
-* How to run the test suite
+    > rails serveur
+   
+Etape 5:  
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    > aller sur :  http://localhost:3000/
