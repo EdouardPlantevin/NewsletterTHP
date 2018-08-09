@@ -21,7 +21,7 @@ class ChargesController < ApplicationController
 
       SendMailMailer.contact("#{@emailling}").deliver_now
       puts "Message envoyer a #{@emailling}"
-      redirect_to pages_bravo_path
+
       rescue Stripe::CardError => e
         flash[:error] = e.message
         redirect_to new_charge_path
